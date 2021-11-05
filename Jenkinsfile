@@ -10,7 +10,7 @@ pipeline {
         stage('Clean') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://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@github.com/psaidani/helloJenkins.git'
+                git 'https://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@github.com/psaidani/helloJenkins.git'
 
                 // Run Maven on a Unix agent.
                 //sh "mvn clean"
@@ -28,7 +28,7 @@ pipeline {
             steps 
             {
                 // Get some code from a GitHub repository
-                //git 'https://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@github.com/psaidani/helloJenkins.git'
+                //git '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@github.com/psaidani/helloJenkins.git'
 
                 // Run Maven on a Unix agent.
                 //sh "mvn clean"
@@ -47,7 +47,7 @@ pipeline {
             steps 
             {
                 // Get some code from a GitHub repository
-                //git 'https://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@github.com/psaidani/helloJenkins.git'
+                //git 'https://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@github.com/psaidani/helloJenkins.git'
 
                 // Run Maven on a Unix agent.
                 //sh "mvn clean"
@@ -66,7 +66,7 @@ pipeline {
             steps 
             {
                 // Get some code from a GitHub repository
-                //git 'https://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@github.com/psaidani/helloJenkins.git'
+                //git 'https://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@github.com/psaidani/helloJenkins.git'
 
                 // Run Maven on a Unix agent.
                 //sh "mvn clean"
