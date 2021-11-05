@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="stylesheet" href="style/css/styles.css" />
 
 </head>
 <body>
@@ -11,25 +11,61 @@
 		<header>
 			<h1>Go-Securi</h1>
 
+		<style type="text/css">
+		#sidebar + #wrapper 
+		{
+		margin-left: 18em;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#sidebar + #wrapper {
+				margin-left: 0;
+				padding-top: 3.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#sidebar + #wrapper {
+				padding-top: 0;
+			}
+
+		}
+
+	#header + #wrapper > .wrapper > .inner {
+		margin: 0 auto;
+	}
+		</style>
 			
 		</header>
-		<nav>
-			<div class="navbar">
-				<ul>
-				  <li><a class="active" href="index.html">Accueil</a></li>
-				</ul>
-			</div>
-		</nav>
-		<section>
-			<p><a href="afoley.html">Anthony Foley</a></p>
-			<p><a href="cberthier.html">Corinne Berthier</a></p>
-			<p><a href="jmacclane.html">John McClane</a></p>
-			<p><a href="jrouletabille.html">Joseph Rouletabille</a></p>
-			<p><a href="jwest.html">Jerry West</a></p>
-			<p><a href="mriggs.html">Martin Riggs</a></p>
-			<p><a href="sconnor.html">Sarah Connor</a></p>
-			<p><a href="sholmes.html">Sherlock Holmes</a></p>
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a class="active" href="index.html">Accueil</a></li>
+						<li><a href="afoley.html">Anthony Foley</a></li>
+						<li><a href="cberthier.html">Corinne Berthier</a></li>
+						<li><a href="jmacclane.html">John McClane</a></li>
+						<li><a href="jrouletabille.html">Joseph Rouletabille</a></li>
+						<li><a href="jwest.html">Jerry West</a></li>
+						<li><a href="mriggs.html">Martin Riggs</a></li>
+						<li><a href="sconnor.html">Sarah Connor</a></li>
+						<li><a href="sholmes.html">Sherlock Holmes</a></li>
+					</ul>
+				</nav>
 		</section>
+		<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Hyperspace</h1>
+							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
+							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
 	</div>
 
 </body>
