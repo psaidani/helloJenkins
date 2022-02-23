@@ -3,9 +3,9 @@ node {
         git "https://github.com/psaidani/helloJenkins"
     }
     stage('Build') {
-        bat 'javac hello.java'
+        sh label: ‘’, script: ‘javac hello.java’
     }
     stage('Run') {
-        bat 'java hello'
+        sh label: ‘’, script: ‘java hello’
     }
 }
