@@ -8,7 +8,7 @@ public class Agent {
     String firstname;
     String mission;
     String password;
-    ArrayList<String> tools = new ArrayList<String>();
+    ArrayList<String> tools;
 
     
     
